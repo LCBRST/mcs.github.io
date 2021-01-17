@@ -1,0 +1,217 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>CSPE Server Page</title>
+
+<link rel="shortcut icon" href="images\CSPE.ico" />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
+<script src="js/jquery.min.js"></script>
+ <!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!--Custom Theme files-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8" />
+<meta name="keywords"
+	content="" />
+ <!--start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+</head>
+<body>
+<!--header-->
+	<div class="header">
+		<div class="container">
+			<!--logo-->
+			<div class="header-top">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" /></a>
+				</div>
+			<!--top-nav-->
+				<div class="top-icons">
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active"><a href="index.html">主页</a></li>
+						<li><a href="http://mcsmap.vaiwan.com/">卫星地图</a></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+		<!-- script-for-menu -->
+				<script>
+					$(document).ready(function(){
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(200);
+						});
+					});
+				</script>
+	<!--End-top-nav-script-->
+				<div class="clearfix"> </div>
+		</div>
+		<!--/header-->
+	</div>
+		<!--banner-->
+			<div class="banner">
+				 <div class="banner-picture">
+				 </div>
+			 </div>
+			 <div class="banner-sub-head">
+				 <div class="container">
+				 	<h1>点击按钮即可使用服务器卫星地图</h1>
+				 	<div class="browse-button">
+			          			<a class="slide-btn" href="http://mcsmap.vaiwan.com">卫星地图</a>
+			        </div>
+
+				 </div>
+			 </div>
+		<!--/End-banner-->
+	<!--start-video-->
+			 <div id="video" class="video">
+	 			<div class="container">
+		 			<div class="video-grids">
+			 				<div class="col-md-5 video-grid">
+			 					<div class="video">
+									<iframe src="//player.bilibili.com/player.html?aid=56588696&bvid=BV154411g7Dc&cid=98868976&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+			 					</div>
+			 				</div>
+			 				<div class="col-md-7 video-grid text">
+			 					<h2>服务器简介</h2>
+								 <p>该服务器为CSPE附属服务器，从2018年12月首次开放并运营至今，有着丰富的服务器管理经验，以及良好的社区环境，我们将不懈努力为玩家提供良好的游戏体验！</p>
+								 <span>我们热情欢迎你加入我们</span>
+			 				</div>
+		 				<div class="clearfix"> </div>
+		 			</div>
+	 			</div>
+			 </div>
+	<!---/video-->
+	<!--start-projects-->
+			 <div id="projects" class="Projects">
+	 						<div class="container">
+								 <div class="projects-head">
+								 	<h3>服务支持</h3>
+								 	<p>我们提供MCBE以及MCJE服务器以满足各种平台的玩家</p>
+								 </div>
+							 </div>
+							<!----sreen-gallery-cursual---->
+						<div class="sreen-gallery-cursual">
+							 <!-- requried-jsfiles-for owl -->
+				
+			</div>
+	<!---/projects-->
+	<!---/start-text-slider----->
+		<div  class="testimonials" id="testimonials">
+			 <div class="wmuSlider example1">
+		 	<div class="container-flueid">
+			   <article style="position: absolute; width:64%; opacity: 0;"> 
+				   	
+					<div class=" cont span_2_of_3 client-main">
+							<div class="slide-text">
+							       <h4>更少的限制限制</h4>
+									<p>服务器里基本没有特殊规则</p>
+						  	<span> </span>
+						 	</div>
+						 	<div class="clearfix"> </div>  
+					</div>
+				</article>
+				 <article style="position: absolute; width:64%; opacity: 0;"> 
+				   	<div class=" cont span_2_of_3  client-main">
+							<div class="slide-text">
+							    <h4>友好的玩家群体</h4>
+								<p>服务器里的玩家大多都是带善人，给你带来家一样的温暖</p>
+						  			<span> </span>
+						 	</div>
+						 	<div class="clearfix"> </div>  
+					</div>
+				 </article>
+				 <article style="position: absolute; width:64%; opacity: 0;"> 
+				   	<div class="cont span_2_of_3  client-main">
+							<div class="slide-text">
+							      <h4>优秀的管理团队</h4>
+									<p>让你的游玩体验UPUP</p>
+						  	<span> </span>
+						 	</div>
+						 	<div class="clearfix"> </div>  
+					</div>
+				 </article>
+		 
+                  <script src="js/jquery.wmuSlider.js"></script> 
+					<script>
+       				     $('.example1').wmuSlider();         
+   					</script> 	           	      
+	         </div>
+	     </div>
+	 </div>
+	 <!---//text-slider----->
+		<div class="Ready">
+			<div class="container">
+				<div class="ready-section">
+					<div class="col-md-8 ready-text">
+								<h3>你准备好加入我们了吗?</h3>	
+					</div>	
+					<div class="col-md-4 ready-button">
+								<div class="ready-button">
+				          			<a class="ready-btn" href="https://jq.qq.com/?_wv=1027&k=9HESWGOa"> 点击加群</a>
+				       			 </div>
+	
+					</div>
+					<div class="clearfix"> </div>  	
+				</div>
+			</div>							
+		</div>
+		<!----- /start-footer---->
+				<div class="footer">
+						<div class="container">
+							<div class="footer-content">
+								<div class="col-md-6 copy-right">
+									<p>Copyright &copy; 2021.LCBRST All rights reserved.</p>
+
+								</div>	
+								<div class="col-md-6 copy-text">
+									<div class="footer-nav">
+										<ul>
+											<li class="active"><a href="index.html">主页/</a></li>
+											<li><a href="http://mcsmap.vaiwan.com/">卫星地图</a></li>
+												<div class="clearfix"> </div>
+										</ul>
+									</div>
+								</div>	
+								<div class="clearfix"> </div>  
+							</div>	
+						</div>								
+					</div>
+					<!----- //End-footer---->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
